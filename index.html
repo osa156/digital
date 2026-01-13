@@ -1,1 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Algorithmic Sublime | Osagie Aromose</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,300;0,400;0,700;1,300;1,400&family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        body {
+            font-family: 'Crimson Pro', serif;
+            background-color: #fcfcfc;
+            color: #1a1a1a;
+            line-height: 1.7;
+        }
+        .font-sans { font-family: 'Inter', sans-serif; }
+        .dropcap::first-letter {
+            font-family: 'Crimson Pro', serif;
+            float: left;
+            font-size: 5rem;
+            line-height: 0.8;
+            padding-right: 0.7rem;
+            font-weight: 700;
+        }
+        .citation {
+            font-family: 'Inter', sans-serif;
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: #71717a;
+            margin-top: 0.5rem;
+            display: block;
+        }
+        .sticky-progress {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 3px;
+            background: #4f46e5;
+            z-index: 100;
+        }
+        blockquote {
+            font-style: italic;
+            border-left: 2px solid #4f46e5;
+            padding-left: 1.5rem;
+            margin: 2.5rem 0;
+            font-size: 1.25rem;
+        }
+    </style>
+</head>
+<body class="antialiased">
 
+    <div id="progress-bar" class="sticky-progress" style="width: 0%"></div>
+
+    <!-- Header Navigation -->
+    <header class="border-b border-zinc-200 py-6 px-6 bg-white sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+            <div class="flex items-center space-x-4">
+                <span class="font-sans font-bold tracking-tighter text-2xl">THE ARCHIVE.</span>
+                <span class="hidden md:block text-xs font-sans tracking-[0.2em] text-zinc-400 uppercase border-l pl-4 border-zinc-200">Essays by Osagie Aromose</span>
+            </div>
+            <div class="flex items-center space-x-6 font-sans text-xs font-semibold tracking-widest uppercase">
+                <a href="#" class="hover:text-indigo-600">Theory</a>
+                <a href="#" class="hover:text-indigo-600">Ethics</a>
+                <a href="#" class="bg-black text-white px-4 py-2 rounded-sm">Subscribe</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Article Hero -->
+    <article class="max-w-3xl mx-auto px-6 pt-20 pb-12">
+        <div class="text-center mb-16">
+            <p class="font-sans text-xs font-bold tracking-[0.4em] text-indigo-600 uppercase mb-4">Technology & Transcendence</p>
+            <h1 class="text-5xl md:text-6xl font-bold leading-tight mb-8">The Algorithmic Sublime: How AI Challenges Our Concept of Transcendence</h1>
+            <div class="flex items-center justify-center space-x-4 font-sans text-sm text-zinc-500">
+                <span class="font-bold text-black uppercase tracking-widest">Osagie Aromose</span>
+                <span>•</span>
+                <span>January 2026</span>
+                <span>•</span>
+                <span class="italic">12 Min Read</span>
+            </div>
+        </div>
+
+        <figure class="mb-16 -mx-6 md:-mx-20">
+            <div class="aspect-video bg-zinc-900 overflow-hidden rounded-sm flex items-center justify-center">
+                <div class="text-indigo-400 opacity-20"><i data-lucide="layers" class="w-32 h-32"></i></div>
+            </div>
+            <figcaption class="text-center mt-4 text-sm text-zinc-500 font-sans tracking-wide">The topology of neural networks often mirrors the vastness of natural phenomena. © The Digital Archive 2026.</figcaption>
+        </figure>
+
+        <!-- Main Body -->
+        <div class="text-xl leading-relaxed text-zinc-800 space-y-8">
+            <p class="dropcap">
+                On July 16, 1945, J. Robert Oppenheimer watched the first nuclear detonation from 10 km away. Looking at the catastrophic bloom of fire, he famously recalled the line from the Hindu scripture: <span class="italic">“Now I am become Death, the destroyer of worlds.”</span> 
+                <span class="citation">Source: U.S. Department of Energy, “J. Robert Oppenheimer”</span>
+            </p>
+
+            <p>
+                The blast was the twentieth-century emblem of the Kantian sublime: a natural-scaled force that dwarfed human comprehension. Seventy-nine years later, the frontier of ungraspable power is no longer fissile plutonium but a 1.8-trillion-parameter transformer running in a cloud data-center.
+            </p>
+
+            <blockquote class="my-12">
+                “We are no longer terrified by explosion, but by extrapolation—by a linguistic infinity that never stops.”
+                <span class="citation">— Yuk Hui, via Twitter (@yukhui), March 14, 2023</span>
+            </blockquote>
+
+            <p>
+                When OpenAI released GPT-4, philosopher Yuk Hui signaled a shift in our collective anxiety. The bomb exceeded our physical safety margins; the model exceeds our epistemic safety margins. Both events trigger what Immanuel Kant called “the dynamically sublime.”
+            </p>
+
+            <h2 class="text-3xl font-bold text-black pt-12">The Kantian Perspective</h2>
+            <p>
+                In §28 of the <em>Critique of the Power of Judgement</em> (1790), Kant writes that the sublime arises when the mind “feels itself set in motion.” It is a struggle. Kant taught us that the sublime does not reside in the object; it resides in the struggle of the mind to recognize its own limits.
+                <span class="citation">Source: Immanuel Kant, Critique of the Power of Judgement (1790)</span>
+            </p>
+
+            <p>
+                The algorithmic sublime will remain human only if we repeat that maintenance—updating weights, debugging bias, and keeping a seat warm in the data-centre for the janitor who knows how the boiler works.
+            </p>
+
+            <blockquote class="my-12">
+                “Transcendence is not a property of silicon or soul; it is a collective accomplishment that must be rebuilt every billing cycle.”
+                <span class="citation">— World Science Festival, "Symbols of Power"</span>
+            </blockquote>
+
+            <h2 class="text-3xl font-bold text-black pt-12">Toward a Post-Anthropic Humanism</h2>
+            <p>
+                We began with Oppenheimer’s atomic sublime—an exterior explosion that revealed the fragility of planets. We end with a distributed sublime—an interior explosion that reveals the fragility of persons. 
+            </p>
+
+            <p>
+                The algorithmic sublime therefore offers neither salvation nor damnation; it offers a reflexive demand: to own the infrastructure, to share the weights, and to build any infinity we touch with open hands.
+            </p>
+        </div>
+
+        <!-- Author Bio -->
+        <div class="mt-20 pt-12 border-t border-zinc-200">
+            <div class="flex flex-col md:flex-row items-center gap-8">
+                <div class="w-24 h-24 bg-zinc-200 rounded-full flex items-center justify-center font-bold text-2xl italic">OA</div>
+                <div>
+                    <h4 class="font-sans font-bold uppercase tracking-widest text-sm mb-2">About the Author</h4>
+                    <p class="text-zinc-600 text-base italic leading-relaxed">
+                        Osagie Aromose is a theorist focused on the intersection of computational logic and digital phenomenology. His work has appeared in multiple archives exploring the aesthetics of the digital age.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <!-- Footer -->
+    <footer class="bg-zinc-100 py-20 px-6 border-t border-zinc-200">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-12">
+            <div class="col-span-2">
+                <h3 class="font-sans font-bold text-xl mb-4 tracking-tighter uppercase">The Archive.</h3>
+                <p class="text-zinc-500 text-sm max-w-sm">A curated platform for the exploration of informational theory and the architecture of the modern stack.</p>
+            </div>
+            <div>
+                <h4 class="font-sans font-bold text-xs uppercase tracking-widest mb-6">Series</h4>
+                <ul class="text-sm space-y-4 text-zinc-600">
+                    <li><a href="#" class="hover:text-black">The Atomic Archive</a></li>
+                    <li><a href="#" class="hover:text-black">Substrate Ethics</a></li>
+                    <li><a href="#" class="hover:text-black">The Latent Space</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="font-sans font-bold text-xs uppercase tracking-widest mb-6">Connect</h4>
+                <div class="flex space-x-4">
+                    <a href="#" class="text-zinc-400 hover:text-black"><i data-lucide="twitter"></i></a>
+                    <a href="#" class="text-zinc-400 hover:text-black"><i data-lucide="mail"></i></a>
+                    <a href="#" class="text-zinc-400 hover:text-black"><i data-lucide="github"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="max-w-7xl mx-auto mt-20 pt-8 border-t border-zinc-200 flex flex-col md:flex-row justify-between items-center text-[10px] text-zinc-400 font-sans tracking-[0.2em] uppercase">
+            <span>© 2026 The Archive Media Group</span>
+            <div class="flex space-x-6 mt-4 md:mt-0">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Ethics Code</a>
+                <a href="#">Accessibility</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Initialize Lucide Icons
+        lucide.createIcons();
+
+        // Progress bar logic
+        window.addEventListener('scroll', () => {
+            const h = document.documentElement, 
+                  b = document.body,
+                  st = 'scrollTop',
+                  sh = 'scrollHeight';
+            const percent = (h[st]||b[st]) / ((h[sh]||b[sh]) - h.clientHeight) * 100;
+            document.getElementById('progress-bar').style.width = percent + '%';
+        });
+    </script>
+</body>
+</html>
